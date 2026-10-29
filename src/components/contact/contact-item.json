@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_contact_items",
+  "info": {
+    "displayName": "Contact Item",
+    "icon": "phone",
+    "description": "School contact info item (address, phone, email, hours)"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "text"
+    },
+    "values": {
+      "type": "json"
+    }
+  }
+}

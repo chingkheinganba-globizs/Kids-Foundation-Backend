@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_admission_procedures_sections",
+  "info": {
+    "displayName": "Admission Procedures Section",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "GUIDELINES"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Admission Procedures"
+    },
+    "registrationTitle": {
+      "type": "string",
+      "default": "Registration for Admission:"
+    },
+    "registrationDescription": {
+      "type": "text"
+    },
+    "testsTitle": {
+      "type": "string",
+      "default": "Admission Tests and Interviews:"
+    },
+    "testsDescription": {
+      "type": "text"
+    }
+  }
+}

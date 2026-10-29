@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_news_news_items",
+  "info": {
+    "displayName": "News Item",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "newsId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Circulars & Notices",
+        "Academic & Exams",
+        "Admissions",
+        "Achievements",
+        "Events & Culture"
+      ],
+      "required": true
+    },
+    "hasDocument": {
+      "type": "boolean",
+      "default": false
+    },
+    "documentName": {
+      "type": "string"
+    },
+    "documentSize": {
+      "type": "string"
+    },
+    "documentType": {
+      "type": "string"
+    },
+    "fullContent": {
+      "type": "json"
+    },
+    "noticeImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "noticeImageUrl": {
+      "type": "string"
+    },
+    "noticePdf": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    },
+    "isLatest": {
+      "type": "boolean",
+      "default": false
+    },
+    "daysToShowLatest": {
+      "type": "integer"
+    }
+  }
+}

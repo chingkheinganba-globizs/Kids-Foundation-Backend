@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_phone_entries",
+  "info": {
+    "displayName": "Phone Entry",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

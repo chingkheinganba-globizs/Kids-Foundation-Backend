@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": "Global website header, navigation menu, branding and announcement bar"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topNoticeText": {
+      "type": "string"
+    },
+    "topNoticeLink": {
+      "type": "string"
+    },
+    "schoolName": {
+      "type": "string",
+      "required": true,
+      "default": "Kids' Foundation"
+    },
+    "location": {
+      "type": "string",
+      "required": true,
+      "default": "Imphal, Manipur"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link-button"
+    },
+    "moreLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link-button"
+    },
+    "actionButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link-button"
+    }
+  }
+}

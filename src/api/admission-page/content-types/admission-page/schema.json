@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "admission_pages",
+  "info": {
+    "singularName": "admission-page",
+    "pluralName": "admission-pages",
+    "displayName": "Admission Page",
+    "description": "Admission page: Enquiry, Procedures, and Fee Structure sections"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "Admission"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "enquiry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admission.enquiry-section",
+      "required": true
+    },
+    "procedures": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admission.procedures-section",
+      "required": true
+    },
+    "feeStructure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "admission.fee-structure-section",
+      "required": true
+    }
+  }
+}

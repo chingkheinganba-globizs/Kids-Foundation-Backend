@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_about_sections",
+  "info": {
+    "displayName": "About Section",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph1": {
+      "type": "text",
+      "required": true
+    },
+    "paragraph2": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

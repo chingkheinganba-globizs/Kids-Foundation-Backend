@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_events_event_items",
+  "info": {
+    "displayName": "Event Item",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "eventId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "month": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "School Events",
+        "Academic",
+        "Sports",
+        "Cultural",
+        "Community",
+        "Ceremony"
+      ],
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": ["upcoming", "past"],
+      "default": "upcoming"
+    }
+  }
+}

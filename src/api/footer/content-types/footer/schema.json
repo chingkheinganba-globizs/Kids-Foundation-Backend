@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": "Global website footer, school credentials, links, contacts and branding"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "text",
+      "required": true
+    },
+    "cbseAffiliationNo": {
+      "type": "string",
+      "required": true,
+      "default": "1230049"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "footerBg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "quickLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link-button"
+    },
+    "importantLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link-button"
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "phones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.phone-entry"
+    },
+    "landline": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-link"
+    },
+    "copyright": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_learning_stages",
+  "info": {
+    "displayName": "Learning Stage",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "stageId": {
+      "type": "string"
+    },
+    "subLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "boldIntro": {
+      "type": "string"
+    },
+    "description": {
+      "type": "json"
+    },
+    "activities": {
+      "type": "json"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  }
+}

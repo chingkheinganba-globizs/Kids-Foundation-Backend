@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_admission_fee_structure_sections",
+  "info": {
+    "displayName": "Fee Structure Section",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "FEE DETAILS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Admission Fee Structure"
+    },
+    "tuitionFeesTitle": {
+      "type": "string",
+      "default": "TUITION FEES"
+    },
+    "tuitionFees": {
+      "type": "component",
+      "repeatable": true,
+      "component": "admission.tuition-fee-row"
+    },
+    "admissionFeesTitle": {
+      "type": "string",
+      "default": "Admission Fees"
+    },
+    "admissionFees": {
+      "type": "component",
+      "repeatable": true,
+      "component": "admission.fee-row"
+    }
+  }
+}

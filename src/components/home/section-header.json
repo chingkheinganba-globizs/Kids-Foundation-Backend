@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_section_headers",
+  "info": {
+    "displayName": "Section Header",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "bottomLinkText": {
+      "type": "string"
+    },
+    "bottomLinkHref": {
+      "type": "string"
+    }
+  }
+}

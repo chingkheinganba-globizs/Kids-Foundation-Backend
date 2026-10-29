@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": "About Us page content: Story, Pillars, and Founder Message"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "default": "About Us"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "storyLabel": {
+      "type": "string",
+      "default": "OUR STORY"
+    },
+    "storyHeading": {
+      "type": "string",
+      "required": true
+    },
+    "storyTopParagraphs": {
+      "type": "json"
+    },
+    "storyImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "storyImageAlt": {
+      "type": "string"
+    },
+    "storyBottomParagraphs": {
+      "type": "json"
+    },
+    "pillars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "founderTag": {
+      "type": "string",
+      "default": "FOUNDER'S MESSAGE"
+    },
+    "founderHeading": {
+      "type": "string"
+    },
+    "founderWelcome": {
+      "type": "string"
+    },
+    "founderParagraphs": {
+      "type": "json"
+    },
+    "founderQuote": {
+      "type": "text"
+    },
+    "founderClosing": {
+      "type": "text"
+    },
+    "founderName": {
+      "type": "string",
+      "default": "Founder's Name"
+    },
+    "founderRole": {
+      "type": "string",
+      "default": "Founder & Chairman"
+    },
+    "founderInstitution": {
+      "type": "string"
+    },
+    "founderImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

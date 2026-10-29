@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_gallery_gallery_images",
+  "info": {
+    "displayName": "Gallery Image",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Campus",
+        "Activities",
+        "Sports",
+        "Arts",
+        "Celebrations"
+      ],
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_pages",
+  "info": {
+    "singularName": "events-page",
+    "pluralName": "events-pages",
+    "displayName": "Events Page",
+    "description": "Events page: banner, header, category filters, and event cards"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "Events"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "sectionLabel": {
+      "type": "string",
+      "default": "ALL EVENTS"
+    },
+    "sectionHeading": {
+      "type": "string",
+      "default": "What's happening at Kids' Foundation"
+    },
+    "filterOptions": {
+      "type": "json"
+    },
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "events.event-item"
+    }
+  }
+}

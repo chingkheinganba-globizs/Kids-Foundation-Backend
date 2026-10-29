@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_admission_enquiry_sections",
+  "info": {
+    "displayName": "Admission Enquiry Section",
+    "icon": "mail"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "ADMISSIONS"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Admission Enquiry"
+    },
+    "description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string",
+      "default": "kidsfoundationghari@gmail.com"
+    },
+    "phone": {
+      "type": "string",
+      "default": "0385-2456231"
+    },
+    "downloadLabel": {
+      "type": "string",
+      "default": "Download Admission Form"
+    },
+    "downloadHref": {
+      "type": "string",
+      "default": "#"
+    },
+    "admissionFormFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files", "images"]
+    }
+  }
+}

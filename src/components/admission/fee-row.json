@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_admission_fee_rows",
+  "info": {
+    "displayName": "Fee Row",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "level": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

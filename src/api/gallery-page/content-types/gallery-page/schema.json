@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "gallery_pages",
+  "info": {
+    "singularName": "gallery-page",
+    "pluralName": "gallery-pages",
+    "displayName": "Gallery Page",
+    "description": "Photo Gallery page: banner, header, category filters, and curated photos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "Photo Gallery"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "sectionLabel": {
+      "type": "string",
+      "default": "MOMENTS & MEMORIES"
+    },
+    "sectionHeading": {
+      "type": "string",
+      "default": "Life at Kids' Foundation"
+    },
+    "sectionDescription": {
+      "type": "text",
+      "default": "A glimpse into the moments, experiences and achievements that make school life memorable."
+    },
+    "categories": {
+      "type": "json"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.gallery-image"
+    }
+  }
+}

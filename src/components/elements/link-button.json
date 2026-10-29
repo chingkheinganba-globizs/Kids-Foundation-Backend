@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_link_buttons",
+  "info": {
+    "displayName": "Link Button",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Homepage singleton managing hero, excellence banner, about, headers, founder message, and admissions CTA"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "home.hero-section",
+      "repeatable": false,
+      "required": true
+    },
+    "excellenceBanner": {
+      "type": "component",
+      "component": "home.excellence-banner",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

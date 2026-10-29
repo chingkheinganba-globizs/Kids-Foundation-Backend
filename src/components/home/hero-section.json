@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_home_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string",
+      "required": true,
+      "default": "KIDS' FOUNDATION • IMPHAL"
+    },
+    "headingLine1": {
+      "type": "string",
+      "required": true
+    },
+    "headingLine2": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "primaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button",
+      "required": true
+    },
+    "secondaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button",
+      "required": true
+    },
+    "scrollIndicator": {
+      "type": "string",
+      "default": "SCROLL TO DISCOVER"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.hero-slide",
+      "min": 1,
+      "max": 10
+    }
+  }
+}

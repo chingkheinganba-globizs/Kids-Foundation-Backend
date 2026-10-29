@@ -1,0 +1,84 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Setting",
+    "description": "Global school identity, CBSE compliance, contacts and branding used across Header and Footer"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "schoolName": {
+      "type": "string",
+      "required": true,
+      "default": "Kids' Foundation"
+    },
+    "location": {
+      "type": "string",
+      "required": true,
+      "default": "Imphal, Manipur"
+    },
+    "tagline": {
+      "type": "text",
+      "required": true
+    },
+    "cbseAffiliationNo": {
+      "type": "string",
+      "required": true,
+      "default": "1230049"
+    },
+    "estdYear": {
+      "type": "string",
+      "required": true,
+      "default": "2005"
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "phones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.phone-entry",
+      "min": 1
+    },
+    "landline": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "topNoticeText": {
+      "type": "string"
+    },
+    "topNoticeLink": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "footerBg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-link"
+    },
+    "copyright": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

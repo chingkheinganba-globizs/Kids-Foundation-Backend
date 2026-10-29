@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_clubs_club_items",
+  "info": {
+    "displayName": "Club Item",
+    "icon": "trophy",
+    "description": "Student club or co-curricular society card"
+  },
+  "options": {},
+  "attributes": {
+    "clubId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Academic & Innovation",
+        "Cultural & Arts",
+        "Sports & Fitness",
+        "Leadership & Service"
+      ]
+    },
+    "meetingSchedule": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "badgeColor": {
+      "type": "string"
+    },
+    "accentGradient": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

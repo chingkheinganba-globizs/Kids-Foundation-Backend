@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_pages",
+  "info": {
+    "singularName": "news-page",
+    "pluralName": "news-pages",
+    "displayName": "News and Updates Page",
+    "description": "News, updates, circulars, and announcements page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "News & Updates"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "sectionLabel": {
+      "type": "string",
+      "default": "LATEST ANNOUNCEMENTS"
+    },
+    "sectionHeading": {
+      "type": "string",
+      "default": "News, Circulars & Official Notices"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "latestDaysThreshold": {
+      "type": "integer",
+      "default": 14
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.news-item"
+    }
+  }
+}

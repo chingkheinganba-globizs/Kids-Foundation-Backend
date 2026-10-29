@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_admission_tuition_fee_rows",
+  "info": {
+    "displayName": "Tuition Fee Row",
+    "icon": "file-invoice"
+  },
+  "options": {},
+  "attributes": {
+    "level": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

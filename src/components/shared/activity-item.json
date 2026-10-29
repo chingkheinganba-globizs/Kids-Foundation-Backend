@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_activity_items",
+  "info": {
+    "displayName": "Activity Item",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

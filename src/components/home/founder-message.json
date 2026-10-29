@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_founder_messages",
+  "info": {
+    "displayName": "Founder Message",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Message from the Founder,"
+    },
+    "paragraph1": {
+      "type": "text",
+      "required": true
+    },
+    "paragraph2": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

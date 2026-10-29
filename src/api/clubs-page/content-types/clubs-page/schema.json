@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "clubs_pages",
+  "info": {
+    "singularName": "clubs-page",
+    "pluralName": "clubs-pages",
+    "displayName": "Clubs and Activities Page",
+    "description": "Clubs and Activities page: banner, philosophy overview, category filters, and club cards"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "Clubs & Activities"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bannerImageUrl": {
+      "type": "string",
+      "default": "/images/pages_hero_background_image/sports_and_arts_hero.jpg"
+    },
+    "categories": {
+      "type": "json"
+    },
+    "clubs": {
+      "type": "component",
+      "component": "clubs.club-item",
+      "repeatable": true
+    }
+  }
+}

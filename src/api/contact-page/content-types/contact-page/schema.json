@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": "Contact page: banner, contact details, form info, and campus map"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "Contact Us"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "bannerImageUrl": {
+      "type": "string"
+    },
+    "getInTouchLabel": {
+      "type": "string",
+      "default": "GET IN TOUCH"
+    },
+    "getInTouchHeading": {
+      "type": "string",
+      "default": "We'd love to hear from you"
+    },
+    "getInTouchDescription": {
+      "type": "text"
+    },
+    "contactItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contact-item"
+    },
+    "formHeading": {
+      "type": "string",
+      "default": "Send Us a Message"
+    },
+    "formDescription": {
+      "type": "text"
+    },
+    "formSubmitLabel": {
+      "type": "string",
+      "default": "Send Message"
+    },
+    "mapLabel": {
+      "type": "string",
+      "default": "FIND US"
+    },
+    "mapHeading": {
+      "type": "string",
+      "default": "Visit Our Campus"
+    },
+    "mapAddress": {
+      "type": "string",
+      "default": "Airport Road, NH 150, Ghari, Imphal, Manipur 795001"
+    },
+    "mapEmbedUrl": {
+      "type": "text"
+    },
+    "mapDirectUrl": {
+      "type": "text"
+    },
+    "mapTitle": {
+      "type": "string",
+      "default": "Kids’ Foundation School | Manipur Location"
+    }
+  }
+}

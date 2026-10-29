@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "campus_pages",
+  "info": {
+    "singularName": "campus-page",
+    "pluralName": "campus-pages",
+    "displayName": "Campus Page",
+    "description": "Campus facilities, gallery, and virtual tour video"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "default": "Campus"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "introHeading": {
+      "type": "string",
+      "default": "CAMPUS"
+    },
+    "introTitle": {
+      "type": "string",
+      "default": "Our campus at a glance"
+    },
+    "introDescription": {
+      "type": "text"
+    },
+    "facilities": {
+      "type": "json"
+    },
+    "galleryImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.gallery-card"
+    },
+    "videoTitle": {
+      "type": "string",
+      "default": "School Campus"
+    },
+    "youtubeId": {
+      "type": "string",
+      "default": "2W6amTtl77s"
+    },
+    "videoDescription": {
+      "type": "text",
+      "default": "Take a virtual tour of our campus"
+    }
+  }
+}

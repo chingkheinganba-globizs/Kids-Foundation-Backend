@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "sports_and_arts_pages",
+  "info": {
+    "singularName": "sports-and-arts-page",
+    "pluralName": "sports-and-arts-pages",
+    "displayName": "Sports and Arts Page",
+    "description": "Sports and Arts page: activities, facilities callout, and gallery"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "default": "Sports & Arts"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "introLabel": {
+      "type": "string",
+      "default": "SPORTS & ARTS"
+    },
+    "introTitle": {
+      "type": "string",
+      "default": "Sports & Arts"
+    },
+    "introLead": {
+      "type": "text"
+    },
+    "activities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.activity-item"
+    },
+    "facilitiesCallout": {
+      "type": "json"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.gallery-card"
+    }
+  }
+}

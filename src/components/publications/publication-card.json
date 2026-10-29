@@ -1,0 +1,78 @@
+{
+  "collectionName": "components_publications_publication_cards",
+  "info": {
+    "displayName": "Publication Card",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "pubId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Magazine & Newsletter",
+        "Academic Handbook",
+        "Annual Report",
+        "Parent & Student Guide"
+      ],
+      "required": true
+    },
+    "edition": {
+      "type": "string"
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "academicYear": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "fileSize": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "default": "PDF"
+    },
+    "language": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "coverImageUrl": {
+      "type": "string"
+    },
+    "pdfFile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    },
+    "downloadFileName": {
+      "type": "string"
+    },
+    "editorOrAuthor": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

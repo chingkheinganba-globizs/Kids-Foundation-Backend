@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_excellence_banners",
+  "info": {
+    "displayName": "Excellence Banner",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "yearsEmblem": {
+      "type": "string",
+      "required": true,
+      "default": "20+"
+    },
+    "yearsLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Years"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "Excellence in Education"
+    },
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "20+ Years of Academic Excellence"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

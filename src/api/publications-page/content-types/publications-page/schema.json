@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "publications_pages",
+  "info": {
+    "singularName": "publications-page",
+    "pluralName": "publications-pages",
+    "displayName": "Publications Page",
+    "description": "School publications, annual magazines, academic handbooks and reports"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "Publications"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "bannerImageUrl": {
+      "type": "string",
+      "default": "/images/pages_hero_background_image/news_hero.jpg"
+    },
+    "sectionHeading": {
+      "type": "string",
+      "default": "School Publications & Handbooks"
+    },
+    "sectionDescription": {
+      "type": "text",
+      "default": "Browse and download official school publications, annual magazines, academic handbooks, and guides."
+    },
+    "categories": {
+      "type": "json"
+    },
+    "publications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "publications.publication-card"
+    }
+  }
+}

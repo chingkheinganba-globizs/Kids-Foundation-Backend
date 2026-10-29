@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "learning_pages",
+  "info": {
+    "singularName": "learning-page",
+    "pluralName": "learning-pages",
+    "displayName": "Learning Page",
+    "description": "Learning / Academic approach page content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "default": "Learning"
+    },
+    "breadcrumb": {
+      "type": "json"
+    },
+    "introHeading": {
+      "type": "string",
+      "default": "Building the right foundation through learning"
+    },
+    "introLabel": {
+      "type": "string",
+      "default": "OUR APPROACH"
+    },
+    "introText": {
+      "type": "text",
+      "required": true
+    },
+    "stages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.learning-stage"
+    }
+  }
+}

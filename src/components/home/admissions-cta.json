@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_admissions_ctas",
+  "info": {
+    "displayName": "Admissions CTA",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "ADMISSIONS"
+    },
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "primaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button",
+      "required": true
+    },
+    "secondaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button",
+      "required": true
+    }
+  }
+}
